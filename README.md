@@ -59,9 +59,11 @@ imports: [
 
 
 
-5) Import and inject AngularFire Storage into a Page/Component/Service. Add the following import and constructor.
+5) Import and inject AngularFire Storage into a Page/Component/Service. Add the following import and constructor. Also add these extra imports for future steps.
 
 ```
+import { Observable } from 'rxjs';
+import { finalize } from 'rxjs/operators';
 import { AngularFireStorage } from '@angular/fire/storage';
 ```
 ```
@@ -143,3 +145,5 @@ uploadFile(event) {
 .subscribe()
 }
 ```
+
+Here are the [AngularFire Storage](https://github.com/angular/angularfire/blob/master/docs/storage/storage.md) Docs.
