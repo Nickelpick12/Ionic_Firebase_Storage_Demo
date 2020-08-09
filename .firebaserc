@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-storage-demo-46460": {
+      "hosting": {
+        "app": [
+          "fir-storage-demo-46460"
+        ]
+      }
+    }
+  }
+}
